@@ -1,0 +1,54 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_search_paste
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 16:05+0000\n"
+"PO-Revision-Date: 2026-10-19 16:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_search_paste
+#: model:ir.module.module,description:base.module_web_search_paste
+msgid ""
+"\n"
+"Search for a list of values copied from Excel (or any spreadsheet):\n"
+"- copy several cells (rows and/or columns) and paste them into the search bar of any view\n"
+"- or type several values separated by commas, e.g. S50000, S58878290\n"
+"- the search bar proposes every field of the search view that can hold all the pasted values\n"
+"- selecting a field adds one filter that matches any of the pasted values (exact match, not case sensitive)\n"
+msgstr ""
+"\n"
+"البحث عن قائمة قيم منسوخة من إكسل (أو أي جدول بيانات):\n"
+"- انسخ عدة خلايا (صفوف و/أو أعمدة) والصقها في شريط البحث في أي شاشة\n"
+"- أو اكتب عدة قيم مفصولة بفواصل، مثل S50000, S58878290\n"
+"- يقترح شريط البحث كل حقل في شاشة البحث يمكنه احتواء كل القيم الملصقة\n"
+"- اختيار الحقل يضيف فلترًا واحدًا يطابق أيًا من القيم الملصقة (مطابقة تامة، دون التمييز بين الأحرف الكبيرة والصغيرة)\n"
+
+#. module: web_search_paste
+#. odoo-javascript
+#: code:addons/web_search_paste/static/src/search_bar_patch.js:0
+msgid "%(count)s values (%(values)s)"
+msgstr "%(count)s قيم (%(values)s)"
+
+#. module: web_search_paste
+#: model:ir.module.module,summary:base.module_web_search_paste
+msgid ""
+"Paste several cells copied from Excel, or type values separated by commas, "
+"to search all of them at once"
+msgstr ""
+"الصق عدة خلايا منسوخة من إكسل، أو اكتب قيمًا مفصولة بفواصل، للبحث عنها كلها "
+"مرة واحدة"
+
+#. module: web_search_paste
+#: model:ir.module.module,shortdesc:base.module_web_search_paste
+msgid "Search Paste from Excel"
+msgstr "البحث باللصق من إكسل"
